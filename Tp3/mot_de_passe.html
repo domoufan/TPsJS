@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Generateur de mot de passe</title>
+    <link rel="stylesheet" href="mot_de_passe.css">
+</head>
+<body>
+    <section>
+        <textarea name="" id="password"  cols="" rows=""  disabled>password</textarea>
+        <p>Longueur du mot du password           <input type="number" id="longueur" min="5" max="20" value="15"></p>
+        <p>Contient des lettres Majuscules       <input type="checkbox" class="checkbox" id="maj" ></p>
+        <p>Contient des lettres Minuscules       <input type="checkbox" class="checkbox" id="min"></p>
+        <p>Contient des Nombres                  <input type="checkbox" class="checkbox" id="number"></p>
+        <p>Contient des caracteres speciaux      <input type="checkbox" class="checkbox" id="car"></p>
+        <pre id="valider">Generer le mot de passe</pre>
+    </section>
+
+
+
+    <script src="mot_de_passe.js"></script>
+</body>
+</html>
